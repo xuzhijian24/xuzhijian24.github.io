@@ -11,18 +11,31 @@ export default defineConfig({
       { text: '导航', link: '/' },
       { text: '博客', link: '/blog' },
       { text: '关于我', link: '/about' },
-      // { text: '示例页面', link: '/markdown-examples' }
+      { text: '示例页面', link: '/markdown-examples' }
     ],
 
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
+    sidebar: [
+      {
+        text: '博客',
+        items: [
+          {
+            text: '2025年',
+            items: [
+              { text: '6月', link: '/2025/6月' },
+            ]
+          }
+        ]
+      },
+      // {
+      //   text: 'Examples',
+      //   items: [
+      //     { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples', link: '/api-examples' }
+      //   ]
+      // }
+    ],
+
+    
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xuzhijian24' },
