@@ -21,6 +21,7 @@ export default defineConfig({
           {
             text: '2025年',
             items: [
+              { text: '什么是最优质的资产', link: '什么是最优质的资产' },
               { text: '6月', link: '/2025/6月' },
             ]
           }
