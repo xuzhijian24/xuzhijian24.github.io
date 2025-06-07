@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "徐志建的博客",
+  base: '/xuzhijian24/',
   description: "记录生活的点点滴滴，我思故我在",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
