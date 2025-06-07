@@ -8,9 +8,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
+      { text: '导航', link: '/' },
+      { text: '博客', link: '/blog' },
       { text: '关于我', link: '/about' },
-      { text: '示例页面', link: '/markdown-examples' }
+      // { text: '示例页面', link: '/markdown-examples' }
     ],
 
     // sidebar: [
@@ -24,7 +25,8 @@ export default defineConfig({
     // ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/xuzhijian24' },
+      { icon: 'gitee', link: 'https://gitee.com/xuxiaoxie' }
     ]
   }
 })
