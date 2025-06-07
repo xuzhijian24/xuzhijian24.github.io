@@ -2,8 +2,8 @@ name: Deploy VitePress site to GitHub Pages
 
 on:
   push:
-    branches: ['master']
-  workflow_dispatch:
+    branches: ['master'] # 当推送到 main 分支时触发
+  workflow_dispatch: # 允许手动触发工作流
 
 permissions:
   contents: read
@@ -24,18 +24,14 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: 22
           cache: 'npm'
-          # Specify the directory for caching if package.json is in ./docs
-          cache-dependency-path: './docs/package-lock.json'
 
       - name: Install dependencies
-        run: npm ci
-        working-directory: ./docs  # Ensure package-lock.json exists in ./docs
+        run: npm install
 
       - name: Build VitePress site
         run: npm run docs:build
-        working-directory: ./docs
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -43,7 +39,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './docs/dist'  # Adjust path to match VitePress output directory
+          path: './.vitepress/dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
