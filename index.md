@@ -14,14 +14,15 @@ hero:
   #     text: API Examples
   #     link: /api-examples
 features:
-  - title: chatgpt
+  - title: 🔥chatgpt
     link: https://chatgpt.com/
-  - title: grok
+  - title: 🔥grok
     link: https://www.grok.com
   - title: 豆包
     link: https://www.doubao.com
-  - title: deepseek
+  - title: 🔥deepseek
     link: https://www.deepseek.com
-  
+  - title: 🌏md在线编辑器
+    link: https://md.doocs.org/
 ---
 
