@@ -22,6 +22,7 @@ export default defineConfig({
             text: '2025年',
             items: [
               { text: '什么是最优质的资产', link: '/2025/6月/什么是最优质的资产' },
+              { text: '房地产未来走势路线', link: '/2025/6月/房地产未来走势路线' },
               { text: '6月', link: '/2025/6月/第一篇博客' },
             ]
           }
