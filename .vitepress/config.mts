@@ -5,13 +5,6 @@ export default defineConfig({
   title: "徐志建的博客",
   base: '/',
   description: "记录生活的点点滴滴，我思故我在",
-  head: [
-    // 不蒜子统计脚本
-    [
-      'script',
-      { async: true, src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }
-    ]
-  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
