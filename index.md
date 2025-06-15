@@ -26,3 +26,4 @@ features:
     link: https://md.doocs.org/
 ---
 
+<BusuanziCounter />
