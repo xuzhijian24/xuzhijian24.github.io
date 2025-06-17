@@ -9,7 +9,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '博客', link: '/2025/6月/第一篇博客' },
+      { text: '博客', link: '/2025/6月/07：第一篇博客' },
       { text: '关于我', link: '/about' },
       { text: '示例页面', link: '/markdown-examples' }
     ],
