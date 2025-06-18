@@ -6,6 +6,9 @@ export default defineConfig({
   title: "徐志建的博客",
   base: '/',
   description: "记录生活的点点滴滴，我思故我在",
+  head: [
+    ['meta', { name: 'google-site-verification', content: '9ba7f7307bd5000c' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
