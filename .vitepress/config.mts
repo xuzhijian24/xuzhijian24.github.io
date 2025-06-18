@@ -17,7 +17,8 @@ export default defineConfig({
       contentRoot: '/', // 内容根目录
       contentDirs: ['2025'], // 需要扫描的目录
       collapsible: true, // 是否允许折叠
-      collapsed: false // 默认折叠
+      collapsed: false, // 默认折叠
+      sort: (a, b) => b.link.localeCompare(a.link)
     }),
 
     // sidebar: [
